@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav,
+#desktop-nav ul {
   display: none;
 }
 
@@ -416,6 +417,41 @@ textarea {
     brightness(92%) contrast(82%);
 }
 
+#mobile-nav {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  background: #3c3a39;
+  z-index: 100;
+  left: 0;
+  height: 80vh;
+  padding-top: 60px;
+}
+
+#mobile-nav li {
+  text-align: left;
+  border-bottom: 1px solid #777;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#mobile-nav a {
+  color: whitesmoke;
+}
+
+.hide {
+  display: none;
+}
+
+#mobile-nav button {
+  background: transparent;
+  border: none;
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  color: white;
+}
+
 @media all and (min-width: 720px) {
   .top-social {
     flex-direction: column;
@@ -446,6 +482,10 @@ textarea {
 
   #desktop-nav {
     display: block;
+  }
+
+  #mobile-nav {
+    display: none;
   }
 
   #desktop-nav ul {
