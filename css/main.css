@@ -428,6 +428,13 @@ textarea {
   padding-top: 60px;
 }
 
+#mobile-nav li {
+  text-align: left;
+  border-bottom: 1px solid #777;
+  width: 85%;
+  margin: 0 auto;
+}
+
 #mobile-nav a {
   color: whitesmoke;
 }

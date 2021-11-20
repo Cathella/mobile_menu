@@ -7,7 +7,7 @@ function showMobileMenu() {
 }
 
 function hideMobileMenu() {
-  // menu.style.display = 'none';
+  menu.style.display = 'none';
 }
 
 menuBars.addEventListener('click', showMobileMenu());
