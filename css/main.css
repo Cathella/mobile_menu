@@ -27,7 +27,8 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
+#desktop-nav, 
+#desktop-nav ul {
   display: none;
 }
 
@@ -591,8 +592,4 @@ textarea {
     width: 3vw;
     height: 32px;
   }
-}
-
-@media only screen and (max-width: 720px) {
-  
 }
